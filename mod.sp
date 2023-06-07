@@ -12,6 +12,10 @@ mod "m3" {
 
 dashboard "d3"{
     table {
-        sql = "select '${var.v1}' as var_value"
+        query = query.q1
     }
+}
+
+query "q1"{
+    sql = "select '${var.v1}' as var_value"
 }
