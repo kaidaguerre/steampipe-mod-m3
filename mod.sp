@@ -10,7 +10,7 @@ mod "m3" {
   title    = "Mod 3"
 }
 
-dashboard "d1"{
+dashboard "d3"{
     table {
         sql = "select '${var.v1}' as var_value"
     }
