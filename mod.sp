@@ -7,7 +7,7 @@ variable "v1" {
 
 mod "m3" {
   # hub metadata
-  title    = "Mod 3"
+  title    = "Mod 3_"
 }
 
 dashboard "d3"{
